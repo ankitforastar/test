@@ -9,7 +9,9 @@ use App\Repositories\BrandRepo;
 use session;
 class BrandController extends Controller
 {
-
+//Route::resource('brands', 'Admin\BrandController');
+//	Route::post('delete_brands', 'Admin\BrandController@deleteMultiple')->name('brands.deleteMultiple');
+  
     /**
      * Display a listing of the resource.
      *
